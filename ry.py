@@ -33,7 +33,7 @@ with st.container():
     st.subheader("Hi, I am Ryzza Cadelina:wave:")
     st.title("A Computer Engineering Student from SNSU")
     st.write(
-        "I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings."
+        "I am a SK member in our Barangay Cayawan in Municipality of Malimono."
     )
     st.write("[Learn More >](https://pythonandvba.com)")
 
@@ -42,20 +42,20 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("What I do")
+        st.header("Drug Awareness")
         st.write("##")
         st.write(
             """
-            On my YouTube channel I am creating tutorials for people who:
-            - are looking for a way to leverage the power of Python in their day-to-day work.
-            - are struggling with repetitive tasks in Excel and are looking for a way to use Python and VBA.
-            - want to learn Data Analysis & Data Science to perform meaningful and impactful analyses.
-            - are working with Excel and found themselves thinking - "there has to be a better way."
+            On my Facebook Page I am posting Slogan about Drug Awareness:
+            - Seeking a path to break free from the chains of substance abuse.
+            - Struggling to overcome the cycle of addiction and seeking support.
+            - Aspiring to spread awareness about the dangers of drugs and make a positive impact.
+            - Realizing the need for change in our communities and standing against the grip of addiction.."
 
             If this sounds interesting to you, consider subscribing and turning on the notifications, so you don’t miss any content.
             """
         )
-        st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
+        st.write("[Facebook Page >](https://www.facebook.com/profile.php?id=61554521967444&mibextid=hIlR13)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
 
@@ -68,28 +68,31 @@ with st.container():
     with image_column:
         st.image(img_lottie_animation)
     with text_column:
-        st.subheader("Integrate Lottie Animations Inside Your Streamlit App")
+        st.subheader("Student Drug and Alcohol Awareness")
         st.write(
             """
-            Learn how to use Lottie Files in Streamlit!
-            Animations make our web app more engaging and fun, and Lottie Files are the easiest way to do it!
-            In this tutorial, I'll show you exactly how to do it
+            Is a program designed to educate students about the risks and consequences 
+            of drug and alcohol abuse. It aims to increase awareness, promote responsible decision-making, 
+            and provide support resources to help students make informed choices regarding their health and well-being. 
+            The program may include information on the effects of substances, prevention strategies, and avenues for seeking help if needed.
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")
+        st.markdown("[Watch Video...](https://youtu.be/HxXgVbYXVEs?si=_o9sUrBCbKyYl9v4)")
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_contact_form)
     with text_column:
-        st.subheader("How To Add A Contact Form To Your Streamlit App")
+        st.subheader("Drug Abuse Awareness | eLearning Course")
         st.write(
             """
-            Want to add a contact form to your Streamlit website?
-            In this video, I'm going to show you how to implement a contact form in your Streamlit app using the free service ‘Form Submit’.
+            is a concise online educational program designed to inform individuals about the risks and 
+            consequences of drug abuse. The course likely covers essential information, preventive measures,
+            and resources through an electronic learning platform, enabling participants to enhance their 
+            understanding of drug-related issues in a convenient and accessible manner.
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/FOULV9Xij_8)")
+        st.markdown("[Watch Video...](https://youtu.be/a-PWkIZ0vUY?si=tbWLKsR6jmBcJtou)")
 
 # ---- CONTACT ----
 with st.container():
