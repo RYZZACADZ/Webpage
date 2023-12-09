@@ -25,8 +25,8 @@ local_css("style/style.css")
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-img_contact_form = Image.open("images/program2.jpg")
-img_lottie_animation = Image.open("images/program3.jpg")
+img_contact_form = Image.open("ryzza.jpg")
+img_lottie_animation = Image.open("ryzza1.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -50,9 +50,9 @@ with st.container():
             - Seeking a path to break free from the chains of substance abuse.
             - Struggling to overcome the cycle of addiction and seeking support.
             - Aspiring to spread awareness about the dangers of drugs and make a positive impact.
-            - Realizing the need for change in our communities and standing against the grip of addiction.."
+            - Realizing the need for change in our communities and standing against the grip of addiction."
 
-            If this sounds interesting to you, consider subscribing and turning on the notifications, so you don’t miss any content.
+            If this sounds interesting to you, consider liking and turning on the notifications, so you don’t miss any content.
             """
         )
         st.write("[Facebook Page >](https://www.facebook.com/profile.php?id=61554521967444&mibextid=hIlR13)")
@@ -62,7 +62,7 @@ with st.container():
 # ---- PROJECTS ----
 with st.container():
     st.write("---")
-    st.header("My Projects")
+    st.header("Video Suggestion")
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
@@ -90,6 +90,7 @@ with st.container():
             consequences of drug abuse. The course likely covers essential information, preventive measures,
             and resources through an electronic learning platform, enabling participants to enhance their 
             understanding of drug-related issues in a convenient and accessible manner.
+.
             """
         )
         st.markdown("[Watch Video...](https://youtu.be/a-PWkIZ0vUY?si=tbWLKsR6jmBcJtou)")
